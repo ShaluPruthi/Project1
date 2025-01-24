@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-style: italic;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    width: 10%;
+    height: 5%;
+    border-radius: 15%;
+    background-color: greenyellow;
+    
+}
+
+.box{
+    width: 600px;
+    height: 650px;
+    background-color: pink;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    border: grey solid;
+}
+
+
+.tex{
+    width: 95%;
+    height: 10%;
+    color: blueviolet;
+    background-color: rgb(237, 186, 237);
+    margin: 5%;
+    margin-left: 2%;
+    border: 5%;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.to-do{   
+    list-style: none;
+    margin-top: 2px;
+}
+
+
+.to-do li{
+    color: white;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    padding-right: 30px;
+    align-items: justify;
+    margin-top: 5px;
+    background-color: blue;
+    border-style: groove;
+    user-select: none;
+
+}
+
+.to-do li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+span{
+    margin-left: 60%;
+    font-size: x-large;
+}
+
+
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: aliceblue important;
+}
+/* .to-do li close {
+    cursor: pointer;
+    transform: translate(0%, -50%);
+
+  }
+
+.close:hover {background: #9b9ad4;} 
+
+.check {
+    cursor: pointer;
+    position: absolute;
+    top: 43.5%;
+    right: 40%;
+    transform: translate(0%, -50%);
+}
+
+.check:hover {background: #9b9ad4;} */
